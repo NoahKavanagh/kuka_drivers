@@ -2,19 +2,197 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:macro name="gpio_config">
     <gpio name="gpio">
-      <!-- Example on how to fill GPIO fields, used by the example configuration-->
-      <command_interface name="01" data_type="bool">
+      <command_interface name="DO_01" data_type="BOOL">
         <limits enable="false"/>
-        <param name="initial_value">false</param>
+        <param name="0">false</param>
       </command_interface>
-
-      <state_interface name="01" data_type="bool">
+      <command_interface name="DO_02" data_type="BOOL">
         <limits enable="false"/>
-        <param name="initial_value">false</param>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_03" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_04" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_05" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_06" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_07" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_08" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_09" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_10" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_11" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_12" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_13" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_14" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_15" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <command_interface name="DO_16" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </command_interface>
+      <state_interface name="DI_01" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
       </state_interface>
-      <state_interface name="02" data_type="bool">
+      <state_interface name="DI_02" data_type="BOOL">
         <limits enable="false"/>
-        <param name="initial_value">false</param>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_03" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_04" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_05" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_06" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_07" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_08" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_09" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_10" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_11" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_12" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_13" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_14" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_15" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DI_16" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_01" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_02" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_03" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_04" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_05" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_06" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_07" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_08" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_09" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_10" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_11" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_12" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_13" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_14" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_15" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
+      </state_interface>
+      <state_interface name="DO_16" data_type="BOOL">
+        <limits enable="false"/>
+        <param name="0">false</param>
       </state_interface>
     </gpio>
   </xacro:macro>
